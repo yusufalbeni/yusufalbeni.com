@@ -231,7 +231,7 @@ img {
 }
 
 .home__blob {
-  fill: hsl(0deg 0% 96.5%);
+  fill: var(--first-color);;
 }
 
 .home__blob-img {
