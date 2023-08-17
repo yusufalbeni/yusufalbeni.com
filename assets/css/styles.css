@@ -231,12 +231,12 @@ img {
 }
 
 .home__blob {
-  fill: hsl(223.85deg 100% 92.52%)
+  fill: hsl(0, 0%, 100%)
 }
 
 .home__blob-img {
-  width: 400px;
-  height: 300px;
+  width: 450px;
+  height: 350px;
   
 }
 
@@ -270,7 +270,7 @@ img {
 }
 
 .about__img img {
-  width: 200px;
+  width: 400px;
 
   border-radius: .5rem;
 }
@@ -519,7 +519,7 @@ work__container bd-grid{
     padding-top: 2rem;
   }
   .about__img img {
-    width: 300px;
+    width: 400px;
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
