@@ -215,7 +215,7 @@ img {
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--second-color);
 }
 
@@ -440,7 +440,6 @@ work__container bd-grid{
   }
   .home__social {
     padding-top: 0;
-    padding-bottom: 2.5rem;
     flex-direction: row;
     align-self: flex-end;
   }
@@ -454,8 +453,7 @@ work__container bd-grid{
   }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    text-align: initial;
+    text-align: justify;
   }
   .skills__container {
     grid-template-columns: .7fr;
@@ -520,6 +518,7 @@ work__container bd-grid{
   }
   .about__img img {
     width: 400px;
+    border: solid 1px black;
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
@@ -679,6 +678,7 @@ a.read_more:hover {
 
     .card_body p {
         font-size: 16px;
+        text-align: justify;
     }
 
     a.read_more {
