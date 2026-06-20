@@ -4,6 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- ===== GOOGLE FONTS PRECONNECT ===== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <!-- =====BOX ICONS===== -->
@@ -17,11 +21,12 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">Home</a>
+                    <a href="#" class="nav__logo">Yusuf<span>Albeni</span></a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
@@ -42,53 +47,49 @@
                     <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Yusuf Albeni</span><br> Data Engineer</h1>
 
                     <p>"You miss 100% of the shots you don’t take."</p>
-                    <p> - Michael Scott</p>
+                    <p>- Michael Scott</p>
 
-
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/yusufalbeni/" target=”_blank” class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/yusufalbeni" target=”_blank” class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="https://instagram.com/yusufalbeni" target=”_blank” class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://medium.com/@yusufalbeni" target=”_blank” class="home__social-icon"><i class='bx bxl-medium-square'></i></a>
-                    <a href="mailto:yusufalbeni@gmail.com?" target=”_blank” class="home__social-icon"><i class='bx bx-envelope'></i></a>
-
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/yusufalbeni/" target=”_blank” class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/yusufalbeni" target=”_blank” class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                        <a href="https://instagram.com/yusufalbeni" target=”_blank” class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                        <a href="https://medium.com/@yusufalbeni" target=”_blank” class="home__social-icon"><i class='bx bxl-medium-square'></i></a>
+                        <a href="mailto:yusufalbeni@gmail.com?" target=”_blank” class="home__social-icon"><i class='bx bx-envelope'></i></a>
+                    </div>
                 </div>
 
                 <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="-115" y="-150" href="assets/img/avatar1.jpeg"/>
-                        </g>
-                    </svg>
+                    <div class="home__img-wrapper">
+                        <div class="home__img-inner">
+                            <img src="assets/img/profile_new_transparent.png" alt="Yusuf Albeni">
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <!--===== ABOUT =====-->
-            <section class="about section " id="about">
+            <section class="about section" id="about">
                 <h2 class="section-title">About Me</h2>
                 <div class="about__container bd-grid">
-                    <div class="about__img"> <img src="assets/img/michael-scott-the-office.gif" alt=""></div>           
+                    <div class="about__img"> 
+                        <img src="assets/img/michael-scott-the-office.gif" alt="Michael Scott Gif">
+                    </div>           
 
                     <div>
                         <p class="about__text"> 
                            Experienced Data Engineer specializing in ETL development, data pipeline design, and BI reporting. Skilled in transforming raw data into actionable insights and supporting strategic decisions. Currently growing expertise in cloud data platforms and AI-assisted data engineering.
+                        </p>
 
-⸻
-
-Core Skills	
-•	ETL / ELT & Data Pipeline Development
-•	Data Modeling & Data Warehousing
-•	BI & Data Visualization
-•	Collaboration & Process Optimization
-•	Cloud & AI-focused Data Engineering Growth
-
-<br><br>
+                        <div class="glass-panel" style="padding: 1.5rem; margin-top: 1.5rem;">
+                            <h3 style="margin-bottom: 1rem; color: var(--primary-color);">Core Skills</h3>
+                            <ul class="about__skills-list">
+                                <li><i class='bx bx-check-circle'></i> ETL / ELT & Data Pipeline Development</li>
+                                <li><i class='bx bx-check-circle'></i> Data Modeling & Data Warehousing</li>
+                                <li><i class='bx bx-check-circle'></i> BI & Data Visualization</li>
+                                <li><i class='bx bx-check-circle'></i> Collaboration & Process Optimization</li>
+                                <li><i class='bx bx-check-circle'></i> Cloud & AI-focused Data Engineering Growth</li>
+                            </ul>
+                        </div>
                     </div>                                   
                 </div>
             </section>
@@ -98,140 +99,171 @@ Core Skills
                 <h2 class="section-title">Skills</h2>
 
                 <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Take a look at some of the things I love working on. </p>
-
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-<!--                                <i class='bx bxl-javascript skills__icon' ></i>-->
-                                <img src="assets/img/database.png" alt="" width="70"  />
-                                
-                                <span class="skills__name">Database Technologies</span>
-                                <a> <img src="assets/img/sql-server.png" alt="sql-server" width="80" height="80" /> </a>&nbsp;
-                                 <a> <img src="assets/img/postgresql.png" alt="postgresql" width="60" height="80" /> </a>&nbsp;
-                                 <a> <img src="assets/img/oracle.png" alt="oracle" width="60" height="80" /> </a>&nbsp;
-                                 <a> <img src="assets/img/azuresql.jpg" alt="azuresql" width="80" height="80" /> </a>&nbsp;
-                                <a> <img src="assets/img/mongo.png" alt="mongo" width="50" height="80" /> </a>
-                            </div>
-                            <div class="skills__bar skills__js">      
-                            </div>
+                    <!-- Category 1 -->
+                    <div class="skills__category">
+                        <div class="skills__category-header">
+                            <i class='bx bx-data skills__category-icon'></i>
+                            <h3 class="skills__name">Database Technologies</h3>
                         </div>
-
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <img src="assets/img/data-visualization.png" alt="" width="60" height="70" />&nbsp;
-                                
-                                <span class="skills__name">Data Visualization</span>
-                               <a> <img src="assets/img/powerbi.jpg" alt="powerbi" width="60" height="80" /> </a>
-                                <a> <img src="assets/img/looker.jpg" alt="looker" width="80" height="80"/> </a>
-                                <a> <img src="assets/img/tableau.png" alt="angular" width="80"/> </a>
-                                <a> <img src="assets/img/carto.png" alt="carto" width="80" height="80"/> </a>
-                                
+                        <div class="skills__list">
+                            <div class="skill__item">
+                                <img src="assets/img/sql-server.png" alt="sql-server" />
+                                <span>SQL Server</span>
                             </div>
-                            <div class="skills__bar skills__html">
-
+                            <div class="skill__item">
+                                <img src="assets/img/postgresql.png" alt="postgresql" />
+                                <span>PostgreSQL</span>
                             </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <img src="assets/img/cloud.jpg" alt="angular" width="70" height="80" />&nbsp;
-                                
-                    
-                                <span class="skills__name">Cloud Computing</span>
-                                <a> <img src="assets/img/azure.png" alt="azure" width="60" height="60" /> </a>
-                                <a> <img src="assets/img/synapse.jpg" alt="synapse" width="60" height="60" /> </a>
-                                <a> <img src="assets/img/fabric.png" alt="fabric" width="60" height="60" /> </a>
-                                <a> <img src="assets/img/bigquery.png" alt="bigquery" width="60" height="60" /> </a>
-                                <a> <img src="assets/img/databricks.png" alt="bigquery" width="60" height="60" /> </a>
-                               
+                            <div class="skill__item">
+                                <img src="assets/img/oracle.png" alt="oracle" />
+                                <span>Oracle</span>
                             </div>
-                            <div class="skills__bar skills__html">
-
+                            <div class="skill__item">
+                                <img src="assets/img/azuresql.jpg" alt="azuresql" />
+                                <span>Azure SQL</span>
                             </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <img src="assets/img/tools.png" alt="angular" width="70" height="80" />&nbsp;
-                                
-                    
-                                <span class="skills__name">Other Tools</span>
-                                <a> <img src="assets/img/airflow.png" alt="airflow" width="50" height="50" /> </a>
-                                <a> <img src="assets/img/pandas.png" alt="pandas" width="80" height="80" /> </a>
-                                <a> <img src="assets/img/ssis.jpg" alt="ssis" width="80" height="80" /> </a>
-                                <a> <img src="assets/img/postgis.png" alt="postgis" width="80" height="80" /> </a>
-                                <a> <img src="assets/img/dbt.png" alt="dbt" width="80" height="80" /> </a>
-
-
-
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
+                            <div class="skill__item">
+                                <img src="assets/img/mongo.png" alt="mongo" />
+                                <span>MongoDB</span>
                             </div>
                         </div>
                     </div>
-                    
-                    <div>              
-                        <img src="assets/img/data.gif" alt="" class="skills__img">
+
+                    <!-- Category 2 -->
+                    <div class="skills__category">
+                        <div class="skills__category-header">
+                            <i class='bx bx-bar-chart-alt-2 skills__category-icon'></i>
+                            <h3 class="skills__name">Data Visualization</h3>
+                        </div>
+                        <div class="skills__list">
+                            <div class="skill__item">
+                                <img src="assets/img/powerbi.jpg" alt="powerbi" />
+                                <span>PowerBI</span>
+                            </div>
+                            <div class="skill__item">
+                                <img src="assets/img/looker.jpg" alt="looker" />
+                                <span>Looker</span>
+                            </div>
+                            <div class="skill__item">
+                                <img src="assets/img/qliksense_logo.png" alt="qliksense" />
+                                <span>QlikSense</span>
+                            </div>
+                            <div class="skill__item">
+                                <img src="assets/img/carto.png" alt="carto" />
+                                <span>Carto</span>
+                            </div>
+                        </div>
                     </div>
+
+                    <!-- Category 3 -->
+                    <div class="skills__category">
+                        <div class="skills__category-header">
+                            <i class='bx bx-cloud skills__category-icon'></i>
+                            <h3 class="skills__name">Cloud Computing</h3>
+                        </div>
+                        <div class="skills__list">
+                            <div class="skill__item">
+                                <img src="assets/img/azure.png" alt="azure" />
+                                <span>Azure</span>
+                            </div>
+                            <div class="skill__item">
+                                <img src="assets/img/synapse.jpg" alt="synapse" />
+                                <span>Synapse</span>
+                            </div>
+                            <div class="skill__item">
+                                <img src="assets/img/fabric.png" alt="fabric" />
+                                <span>Fabric</span>
+                            </div>
+                            <div class="skill__item">
+                                <img src="assets/img/bigquery.png" alt="bigquery" />
+                                <span>BigQuery</span>
+                            </div>
+                            <div class="skill__item">
+                                <img src="assets/img/databricks.png" alt="databricks" />
+                                <span>Databricks</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 4 -->
+                    <div class="skills__category">
+                        <div class="skills__category-header">
+                            <i class='bx bx-wrench skills__category-icon'></i>
+                            <h3 class="skills__name">Other Tools</h3>
+                        </div>
+                        <div class="skills__list">
+                            <div class="skill__item">
+                                <img src="assets/img/airflow.png" alt="airflow" />
+                                <span>Airflow</span>
+                            </div>
+                            <div class="skill__item">
+                                <img src="assets/img/pandas.png" alt="pandas" />
+                                <span>Pandas</span>
+                            </div>
+                            <div class="skill__item">
+                                <img src="assets/img/ssis.jpg" alt="ssis" />
+                                <span>SSIS</span>
+                            </div>
+                            <div class="skill__item">
+                                <img src="assets/img/postgis.png" alt="postgis" />
+                                <span>PostGIS</span>
+                            </div>
+                            <div class="skill__item">
+                                <img src="assets/img/dbt.png" alt="dbt" />
+                                <span>DBT</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
-            <!--===== WORK =====-->
+            <!--===== CERTIFICATIONS =====-->
             <section class="work section" id="certifications">
                 <h2 class="section-title">Certifications</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="https://www.credly.com/badges/58d7dab2-ccc7-4a7a-bb64-b5c62020e1cf" target=”_blank” class="work__img"> <img src="assets/img/Badges/azure-data-engineer-associate-600x600.png" alt="data"> </a>
-                    <a href="https://www.credly.com/badges/ac4bb58c-bfd2-4d29-a891-ac2542d602b8" target=”_blank” class="work__img"> <img src="assets/img/Badges/data-analyst.png" alt=""> </a>
-                    <a href="https://www.credly.com/badges/f552676a-ead0-4714-8c0f-f67ecde6a8d8" target=”_blank”  class="work__img"> <img src="assets/img/Badges/az-fundamentals.png" alt=""> </a>
-                    <a href="https://www.credly.com/badges/1c838cee-2a1f-48c9-a591-d6391c491c6b" target=”_blank” class="work__img"> <img src="assets/img/Badges/az-data-fundamentals.png" alt=""> </a>
-                    <a href="https://www.credly.com/badges/792f2d71-9147-4090-90ee-b307546dc04c" target=”_blank” class="work__img"> <img src="assets/img/Badges/az-ai-fundamentals.png" alt=""> </a>
-                    <a href="https://www.credly.com/badges/e5c3ffba-1a3a-4872-99b8-f83c62a50bdb" target=”_blank” class="work__img"> <img src="assets/img/Badges/az-scc.png" alt=""> </a>
-                    <a href="https://www.credly.com/badges/ade5cdc8-2e46-4d6c-acd6-331343fac7a0" target=”_blank” class="work__img"> <img src="assets/img/Badges/az-365.png" alt=""> </a>
-                    <a href="https://www.credly.com/badges/34c7c059-be86-4b55-b874-3eb77410031a" target=”_blank” class="work__img"> <img src="assets/img/Badges/power-platform.png" alt=""> </a>
-                    <a href="https://www.datacamp.com/certificate/DAA0011993747240" target=”_blank” class="work__img"> <img src="assets/img/Badges/data-analyst-associate-badge.png" alt=""> </a>
+                    <a href="https://www.credly.com/badges/58d7dab2-ccc7-4a7a-bb64-b5c62020e1cf" target=”_blank” class="work__img"> <img src="assets/img/Badges/azure-data-engineer-associate-600x600.png" alt="azure data engineer"> </a>
+                    <a href="https://www.credly.com/badges/ac4bb58c-bfd2-4d29-a891-ac2542d602b8" target=”_blank” class="work__img"> <img src="assets/img/Badges/data-analyst.png" alt="data analyst"> </a>
+                    <a href="https://www.credly.com/badges/f552676a-ead0-4714-8c0f-f67ecde6a8d8" target=”_blank”  class="work__img"> <img src="assets/img/Badges/az-fundamentals.png" alt="az fundamentals"> </a>
+                    <a href="https://www.credly.com/badges/1c838cee-2a1f-48c9-a591-d6391c491c6b" target=”_blank” class="work__img"> <img src="assets/img/Badges/az-data-fundamentals.png" alt="az data fundamentals"> </a>
+                    <a href="https://www.credly.com/badges/792f2d71-9147-4090-90ee-b307546dc04c" target=”_blank” class="work__img"> <img src="assets/img/Badges/az-ai-fundamentals.png" alt="az ai fundamentals"> </a>
+                    <a href="https://www.credly.com/badges/e5c3ffba-1a3a-4872-99b8-f83c62a50bdb" target=”_blank” class="work__img"> <img src="assets/img/Badges/az-scc.png" alt="az scc"> </a>
+                    <a href="https://www.credly.com/badges/ade5cdc8-2e46-4d6c-acd6-331343fac7a0" target=”_blank” class="work__img"> <img src="assets/img/Badges/az-365.png" alt="az 365"> </a>
+                    <a href="https://www.credly.com/badges/34c7c059-be86-4b55-b874-3eb77410031a" target=”_blank” class="work__img"> <img src="assets/img/Badges/power-platform.png" alt="power platform"> </a>
+                    <a href="https://www.datacamp.com/certificate/DAA0011993747240" target=”_blank” class="work__img"> <img src="assets/img/Badges/data-analyst-associate-badge.png" alt="datacamp analyst"> </a>
                 </div>
             </section>          
            
-<!-----------------blog------------------->
-            
-            <div class="container" id="blog">
-                  <section class="work section" id="work">
-                 <h2 class="section-title" id="blog">Blog</h2>
-        <div class="grid">
-            <div class="card">
-                <div class="card_img">
-                    <img src="assets/img/airbyte.webp" alt="">
+            <!--===== BLOG =====-->
+            <section class="section" id="blog">
+                 <h2 class="section-title">Blog</h2>
+                 <div class="blog__container bd-grid">
+                    <div class="card">
+                        <div class="card_img">
+                            <img src="assets/img/airbyte.webp" alt="Airbyte Blog Post">
+                        </div>
+                        <div class="card_body">
+                            <p>Airbyte kullanarak URL’den okunan “.CSV” dosya verisinin PostgreSQL veritabanıyla periyodik olarak senkronizasyonu ve bu verinin Google Data Studio üzerinde görselleştirilmesi</p>
+                            <a href="https://medium.com/@yusufalbeni/airbyte-kullanarak-urlden-okunan-csv-123a8210f7f1" target="_blank" class="read_more">Read article <i class='bx bx-right-arrow-alt' style="font-size: 1.2rem; margin-left: 5px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_img">
+                            <img src="assets/img/1_NaFkcWURaT1WkibzooIOnA.webp" alt="Data Engineering End-to-End Project">
+                        </div>
+                        <div class="card_body">
+                            <p>Data Engineering End-to-End Project: “Location-Based Note Taking” Apple Shortcuts, Google Sheets, Python, Airflow, PostgreSQL, Carto</p>
+                            <a href="https://medium.com/@yusufalbeni/data-engineering-end-to-end-project-location-based-note-taking-shortcut-google-sheets-python-784c6bcfeb6a" target="_blank" class="read_more">Read article <i class='bx bx-right-arrow-alt' style="font-size: 1.2rem; margin-left: 5px;"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card_body">
-                    <h2 class="card_title"></h2>
-                    <p>Airbyte kullanarak URL’den okunan “.CSV” dosya verisinin PostgreSQL veritabanıyla periyodik olarak senkronizasyonu ve bu verinin Google Data Studio üzerinde görselleştirilmesi</p>
-                    <a href="https://medium.com/@yusufalbeni/airbyte-kullanarak-urlden-okunan-csv-123a8210f7f1" class="read_more">Read article</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_img">
-                    <img src="assets/img/1_NaFkcWURaT1WkibzooIOnA.webp" alt="">
-                </div>
-                <div class="card_body">
-                    <h2 class="card_title"></h2>
-                    <p>Data Engineering End-to-End Project: “Location-Based Note Taking” Apple Shortcuts, Google Sheets, Python, Airflow, PostgreSQL, Carto</p>
-                    <a href="https://medium.com/@yusufalbeni/data-engineering-end-to-end-project-location-based-note-taking-shortcut-google-sheets-python-784c6bcfeb6a" class="read_more">Read article</a>
-                </div>
-            </div>
-        </div>
-   
-            </div>
-          
-
-            
+            </section>
+        </main>
 
         <!--===== FOOTER =====-->
         <footer class="footer">
-            <p class="footer__copy">&#169; Yusuf Albeni</p>
+            <p class="footer__copy">&#169; Yusuf Albeni. All right reserved.</p>
         </footer>
 
         <!--===== SCROLL REVEAL =====-->
@@ -241,4 +273,3 @@ Core Skills
         <script src="assets/js/main.js"></script>
     </body>
 </html>
-
